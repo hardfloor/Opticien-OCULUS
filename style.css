@@ -1,0 +1,129 @@
+.navbar .nav-link{
+    font-size:20px;
+    text-transform: uppercase;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.navbar .nav-item.active{
+    border-left:rgb(230, 173, 51) 3px solid ;
+}
+
+.nav-bar-brand{
+    font-size: 30px;
+    color: white;
+}
+.carousel-item{
+    height:500px;
+    
+}
+
+#page-header1{
+    height:350px;
+    background:url("ressources/lunettes/girl-1741925_1920.jpg");
+    background-position: 0 -130px;
+    background-attachment: fixed;
+    color:#fff;
+    border-bottom: 1px #eee solid;
+    padding-top: 150px;
+
+}
+
+#page-header2{
+    height:350px;
+    background:url("ressources/lunettes/rt/neonbrand-dWTUWHBR2fU-unsplash.png");
+    background-position: 0 -800px;
+    background-attachment: fixed;
+    color:#fff;
+    border-bottom: 1px #eee solid;
+    padding-top: 100px;
+
+}
+
+#page-header3{
+    height:350px;
+    background:url("ressources/lunettes/kids-1508121_1920.jpg");
+    background-position: 0 -100px;
+    background-attachment: fixed;
+    color:#fff;
+    border-bottom: 1px #eee solid;
+    padding-top:60px;
+}
+#gallery1,#gallery2,#gallery3 p{
+    font-size: 30px !important;
+}
+
+
+#page-header1,#page-header2,#page-header3,#page-header5,#page-header6,#page-header7,#assurances p{
+    font-size: 30px !important;
+}
+
+
+#page-header5{
+    height:400px;
+    background:url("ressources/lunettes/rt/ONB6SZ0.png");
+    background-position: 0 -350px;
+    background-attachment: fixed;
+    color:#fff;
+    border-bottom: 1px #eee solid;
+    padding-top:150px;
+    
+}
+
+#page-header6{
+    height:400px;
+    background:url("ressources/lunettes/rt/Titanum-Eyeglass-repair_Optical-Innovations.png");
+    background-position: 0 -350px;
+    background-attachment: fixed;
+    color:#fff;
+    border-bottom: 1px #eee solid;
+    padding-top:120px;
+    
+}
+#page-header7{
+    height:300px;
+    padding-top:120px;
+    
+}
+
+#home-heading{
+    height:400px;
+    background:url("ressources/lunettes/rT/Sans-titre-1.png");
+    background-position: 0 120px;
+    background-attachment: fixed;
+    color:#fff;
+    border-bottom: 1px #eee solid;
+    padding-top:120px;
+}
+
+#mycarouselFade img{
+    position: relative; top: -190px;
+}
+
+}
+
+
+
+
+
+
+
+.bg {
+   
+    background-image: url("ressources/lunettes/rt/4753.png");
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+
+
+
+
+
+/*mediaqueries mediaqueries mediaqueries mediaqueries mediaqueries mediaqueries mediaqueries mediaqueries mediaqueries mediaqueries*/
+
+@media screen and (max-width:990px){
+    .bg {
+       
+        background-image: url("ressources/lunettes/rt/4753light.png");
+}
