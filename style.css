@@ -100,7 +100,7 @@
     position: relative; top: -190px;
 }
 
-}
+
 
 
 
@@ -126,4 +126,5 @@
     .bg {
        
         background-image: url("ressources/lunettes/rt/4753light.png");
+    }
 }
