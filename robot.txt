@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /contact.html
+Disallow: /glasses.html
+Disallow: /insurance.html
+Disallow: /lenses.html
+Disallow: /mentions.html
+Disallow: /sun-glasses.html
+
