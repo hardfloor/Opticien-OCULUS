@@ -14,7 +14,7 @@
     color: white;
 }
 .carousel-item{
-    height:500px;
+    height:600px;
     
 }
 
@@ -103,11 +103,6 @@
 
 
 
-
-
-
-
-
 .bg {
    
     background-image: url("ressources/lunettes/rt/4753.png");
@@ -118,13 +113,37 @@
 
 
 
-
-
 /*mediaqueries mediaqueries mediaqueries mediaqueries mediaqueries mediaqueries mediaqueries mediaqueries mediaqueries mediaqueries*/
+
+@media screen and (max-width:1200px){
+#page-header7 p{
+    font-size: 20px;
+}
+}
+
 
 @media screen and (max-width:990px){
     .bg {
        
         background-image: url("ressources/lunettes/rt/4753light.png");
     }
+}
+#home-heading p{
+    font-size: 3rem;
+}
+
+#page-header6 p{
+
+
+    font-size: 25px;
+}
+
+@media screen and (max-width:414px){
+
+#home-heading p{
+    font-size: 25px;
+}
+
+
+
 }

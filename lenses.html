@@ -66,7 +66,7 @@
             <div class="col-md-4">
                 <div class="card bg-warning text-white text-center mt-2">
                     <div class="card-body">
-                        <img src="ressources/lunettes/rt/1916.png" alt="une boite de lentille de contact">
+                        <img class="imglazy" data-src="ressources/lunettes/rt/1916.png" alt="une boite de lentille de contact">
                         <h3 class="mt-3">Les journalières</h3>
                         Boîte de 60 lentilles pour 30 jours
                         <a href="#" class="btn btn-primary btn-lg active mt-3" role="button" aria-pressed="true">Commandez</a>
@@ -76,7 +76,7 @@
             <div class="col-md-4">
                 <div class="card bg-warning text-white text-center mt-2">
                   <div class="card-body">
-                      <img src="ressources/lunettes/rt/1917.png" alt=" une boite de lentille de contact">
+                      <img class="imglazy" data-src="ressources/lunettes/rt/1917.png" alt=" une boite de lentille de contact">
                       <h3 class="mt-3">Les journalières</h3>
                       Boîte de 120 lentilles pour 3 mois
                       <a href="#" class="btn btn-primary btn-lg active mt-3" role="button" aria-pressed="true">Commandez</a>
@@ -86,7 +86,7 @@
             <div class="col-md-4">
               <div class="card bg-warning text-white text-center mt-2">
                 <div class="card-body">
-                    <img src="ressources/lunettes/rt/1918.png" alt=" une boite de lentille de contact">
+                    <img class="imglazy" data-src="ressources/lunettes/rt/1918.png" alt=" une boite de lentille de contact">
                     <h3 class="mt-3">Les journalières</h3>
                     Boîte de 340 lentilles pour 6 mois
                     <a href="#" class="btn btn-primary btn-lg active mt-3" role="button" aria-pressed="true">Commandez</a>
@@ -98,7 +98,7 @@
             <div class="col-md-4">
               <div class="card bg-warning text-white text-center mt-2">
                 <div class="card-body">
-                    <img src="ressources/lunettes/rt/1919.png" alt=" une boite de lentille de contact">
+                    <img class="imglazy" data-src="ressources/lunettes/rt/1919.png" alt=" une boite de lentille de contact">
                     <h3 class="mt-3">Les mensuelles</h3>
                     Boîte de 2 lentilles pour 30 jours
                     <a href="#" class="btn btn-primary btn-lg active mt-3" role="button" aria-pressed="true">Commandez</a>
@@ -108,7 +108,7 @@
             <div class="col-md-4">
               <div class="card bg-warning text-white text-center mt-2">
                 <div class="card-body">
-                    <img src="ressources/lunettes/rt/1920.png" alt=" une boite de lentille de contact">
+                    <img class="imglazy" data-src="ressources/lunettes/rt/1920.png" alt=" une boite de lentille de contact">
                     <h3 class="mt-3">Les journalières</h3>
                     Boîte de 6 lentilles pour 3 mois
                     <a href="#" class="btn btn-primary btn-lg active mt-3" role="button" aria-pressed="true">Commandez</a>
@@ -118,7 +118,7 @@
             <div class="col-md-4">
               <div class="card bg-warning text-white text-center mt-2">
                 <div class="card-body">
-                    <img src="ressources/lunettes/rt/1921.png" alt=" une boite de lentille de contact">
+                    <img class="imglazy" data-src="ressources/lunettes/rt/1921.png" alt=" une boite de lentille de contact">
                     <h3 class="mt-3">Les journalières</h3>
                     Boîte de 12 lentilles pour 6 mois
                     <a href="#" class="btn btn-primary btn-lg active mt-3" role="button" aria-pressed="true">Commandez</a>
@@ -130,7 +130,7 @@
           <div class="col-md-4">
             <div class="card bg-warning text-white text-center mt-2">
               <div class="card-body">
-                  <img src="ressources/lunettes/rt/1922.png" alt=" une boite de lentille de contact">
+                  <img class="imglazy" data-src="ressources/lunettes/rt/1922.png" alt=" une boite de lentille de contact">
                   <h3 class="mt-3">Les annuelles</h3>
                   Boîte de 2 lentilles pour 1 an
                   <a href="#" class="btn btn-primary btn-lg active mt-3" role="button" aria-pressed="true">Commandez</a>
@@ -140,7 +140,7 @@
           <div class="col-md-4">
             <div class="card bg-warning text-white text-center mt-2">
               <div class="card-body">
-                  <img src="ressources/lunettes/rt/1923.png" alt=" une boite de lentille de contact">
+                  <img class="imglazy" data-src="ressources/lunettes/rt/1923.png" alt=" une boite de lentille de contact">
                   <h3 class="mt-3">Les journalières</h3>
                   Boîte de 4 lentilles alternables pour 1 an
                   <a href="#" class="btn btn-primary btn-lg active mt-3" role="button" aria-pressed="true">Commandez</a>
@@ -150,7 +150,7 @@
           <div class="col-md-4">
             <div class="card bg-warning text-white text-center mt-2">
               <div class="card-body">
-                  <img src="ressources/lunettes/rt/1924.png" alt=" une boite de lentille de contact">
+                  <img class="imglazy" data-src="ressources/lunettes/rt/1924.png" alt=" une boite de lentille de contact">
                   <h3 class="mt-3">Les journalières</h3>
                   Boîte de 6 lentilles alternables pour 1 an
                   <a href="#" class="btn btn-primary btn-lg active mt-3" role="button" aria-pressed="true">Commandez</a>
@@ -194,7 +194,8 @@
   </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js">
   </script>
-
+ <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@15.1.1/dist/lazyload.min.js"></script>
+ <!--CDN Lazyload--> 
 <script>
   // Get the current year for the copyright
   $('#year').text(new Date().getFullYear());
@@ -204,7 +205,11 @@
         event.preventDefault();
         $(this).ekkoLightbox();
     });
+//Lazy Load
+const myLazyLoad = new LazyLoad({
+      elements_selector: ".imglazy"
 
+    })
 
 </script>
 
